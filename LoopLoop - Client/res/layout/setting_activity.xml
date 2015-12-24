@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/background_dj_translucent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/btnRecTime1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_5"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/btnRecTime2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_6"
+                android:layout_marginBottom="30dp" />
+            
+            <ImageView
+                android:id="@+id/btnRecTime3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_7"
+                android:layout_marginBottom="30dp" />
+            
+            <ImageView
+                android:id="@+id/btnRecTime4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_8"
+                android:layout_marginBottom="30dp" />
+            
+            <ImageView
+                android:id="@+id/btnRecTime5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_9"
+                android:layout_marginBottom="30dp" />
+            
+            <ImageView
+                android:id="@+id/btnRecTime6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rec_time_10"
+                android:layout_marginBottom="30dp" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

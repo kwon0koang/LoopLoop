@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="vertical" >
+        
+        <ImageView 
+            android:id="@+id/rec1Button"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/rec"
+            android:layout_weight="1" />
+        
+        <ImageView 
+            android:id="@+id/rec2Button"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/rec"
+            android:layout_weight="1" />
+        
+        <ImageView 
+            android:id="@+id/rec3Button"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/rec"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/rec4Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/rec"
+            android:textSize="30sp" />
+        
+        <ImageView
+            android:id="@+id/rec5Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/rec"
+            android:textSize="30sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:weightSum="5"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout2_1"
+	        android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	        android:weightSum="3"
+	        android:orientation="vertical" >
+            <com.dgssm.looploop.waveform.WaveformView
+		        android:id="@+id/waveformView1"
+		        android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="2" />
+            <SeekBar
+                android:id="@+id/sbVolume1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:progress="1000"
+                android:thumb="@drawable/thumb"/>
+        </LinearLayout>
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout2_2"
+	        android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	        android:weightSum="3"
+	        android:orientation="vertical" >
+            <com.dgssm.looploop.waveform.WaveformView
+		        android:id="@+id/waveformView2"
+		        android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="2" />
+            <SeekBar
+                android:id="@+id/sbVolume2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:progress="1000"
+                android:thumb="@drawable/thumb"/>
+        </LinearLayout>
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout2_3"
+	        android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	        android:weightSum="3"
+	        android:orientation="vertical" >
+            <com.dgssm.looploop.waveform.WaveformView
+		        android:id="@+id/waveformView3"
+		        android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="2" />
+            <SeekBar
+                android:id="@+id/sbVolume3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:progress="1000"
+                android:thumb="@drawable/thumb"/>
+        </LinearLayout>
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout2_4"
+	        android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	        android:weightSum="3"
+	        android:orientation="vertical" >
+            <com.dgssm.looploop.waveform.WaveformView
+		        android:id="@+id/waveformView4"
+		        android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="2" />
+            <SeekBar
+                android:id="@+id/sbVolume4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:progress="1000"
+                android:thumb="@drawable/thumb"/>
+        </LinearLayout>
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout2_5"
+	        android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	        android:weightSum="3"
+	        android:orientation="vertical" >
+            <com.dgssm.looploop.waveform.WaveformView
+		        android:id="@+id/waveformView5"
+		        android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="2" />
+            <SeekBar
+                android:id="@+id/sbVolume5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:progress="1000"
+                android:thumb="@drawable/thumb"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:weightSum="5"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+	        android:id="@+id/LinearLayout3_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:weightSum="2"
+	        android:orientation="horizontal" >
+            <ImageView
+	            android:id="@+id/mute1Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/mute_x"
+	            android:textSize="30sp" />
+            <ImageView
+	            android:id="@+id/rev1Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/reverb_x"
+	            android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/LinearLayout3_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:weightSum="2"
+	        android:orientation="horizontal" >
+            <ImageView
+	            android:id="@+id/mute2Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/mute_x"
+	            android:textSize="30sp" />
+            <ImageView
+	            android:id="@+id/rev2Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/reverb_x"
+	            android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/LinearLayout3_3"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:weightSum="2"
+	        android:orientation="horizontal" >
+            <ImageView
+	            android:id="@+id/mute3Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/mute_x"
+	            android:textSize="30sp" />
+            <ImageView
+	            android:id="@+id/rev3Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/reverb_x"
+	            android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/LinearLayout3_4"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:weightSum="2"
+	        android:orientation="horizontal" >
+            <ImageView
+	            android:id="@+id/mute4Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/mute_x"
+	            android:textSize="30sp" />
+            <ImageView
+	            android:id="@+id/rev4Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/reverb_x"
+	            android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/LinearLayout3_5"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:weightSum="2"
+	        android:orientation="horizontal" >
+            <ImageView
+	            android:id="@+id/mute5Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/mute_x"
+	            android:textSize="30sp" />
+            <ImageView
+	            android:id="@+id/rev5Button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:src="@drawable/reverb_x"
+	            android:textSize="30sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

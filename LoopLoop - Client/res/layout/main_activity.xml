@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dj_translucent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btnOneManBand"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/btnRealBand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mode_one_man_band"/>
+
+    <Button
+        android:id="@+id/btnRealBand"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/btnOneManBand"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/mode_real_band" />
+
+</RelativeLayout>
